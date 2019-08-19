@@ -25,6 +25,7 @@ public class HelloWord {
     @After
     public void afterEachTest() {
         System.out.println("This is executed after each Test");
+         System.out.println("this is a change");
         System.out.println("......END --- Waiting.... .. at "  + dateUtils.getCurrentDate());
     }
 
@@ -33,7 +34,7 @@ public class HelloWord {
         System.out.println("----- START OF Verify function sayHello in HelloWord class -------------");
         String str = "Hello";
         Assert.assertEquals(str, "Hello");
-        System.out.println("Hello");
+        System.out.println("Hello 1233233");
         System.out.println("----- END OF Verify function sayHello in HelloWord class -------------");
     }
 
