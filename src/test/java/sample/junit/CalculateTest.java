@@ -35,7 +35,7 @@ public class CalculateTest {
     public void testSum_One() {
         int testSum = 7;
         System.out.println("----- START OF Verify function testSum -------------");
-        int sum = calculator.sum(2, 9);
+        int sum = calculator.sum(2, 5);
         System.out.println("@Test sum(): " + sum + " = " + testSum);
         Assert.assertEquals(sum, testSum);
         System.out.println("----- END OF Verify function testSum -------------");
